@@ -26,6 +26,8 @@ The :ref:`Genozip License <license>` defines the exact cases for which use of Ge
 
 - Clinical: The genomic data is used to directly benefit the individuals who provided the samples, for example via better diagnosis or treatment.
 
+- Clinical + Research: The genomic data is used to directly benefit the individuals who provided the samples, for example via better diagnosis or treatment, and you are also using the data to conduct scientific research.
+
 - Product: You are developing a product, such as a pharmaceutical or food product. 
 
 - Service: You are providing a service to your customers, such as DNA sequencing, DNA analysis, bioinformatics, SaaS or cloud.
