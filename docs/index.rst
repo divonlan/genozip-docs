@@ -33,7 +33,7 @@ Genozip consists of four command line tools:
 
 License
 =======
-Genozip is a paid professional product (:ref:`Pricing<commercial>`). Genozip is also provided *FREE OF CHARGE* for academic and training use. 
+Genozip is a paid professional product (:ref:`Pricing<pricing>`). Genozip is also provided *FREE OF CHARGE* for academic and training use. 
 
 |
 
@@ -55,7 +55,7 @@ Table of contents
    Applications <applications> 
    Algorithms <algorithms>
    Publications & Citing <publications>
-   Pricing <commercial>
+   Pricing <pricing>
    License <license>
    Release Notes <release-notes>
    Source code <source>
