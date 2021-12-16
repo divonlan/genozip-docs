@@ -20,7 +20,7 @@ Clinical, product or service (see :ref:`FAQ<FAQ>`) US$167/month (when paid annua
 
 Reselling Genozip to your customers                Please contact sales@genozip.com
 
-Academic research                                  Free
+Academic research (see :ref:`FAQ<FAQ>`)            Free
 
 Educational                                        Free
 
