@@ -3,8 +3,8 @@
 
 .. _fastq:
 
-Genozip FASTQ files
-===================
+Compressing FASTQ files
+=======================
 
 **Compressing a FASTQ file**
 
@@ -82,9 +82,15 @@ In files where it is expected that the sequences (reads) are similar - for examp
 
 **Best compression**
 
-Using the ``--best`` option causes Genozip to use more aggressive compression methods, at the expense of higher CPU and memory usage, resulting in better compression. It is recommend to combine this with ``--reference`` and ``--pair`` if applicable for even better compression.
+Using the ``--best`` option causes Genozip to use more aggressive compression methods, at the expense of higher CPU and memory usage, resulting in better compression. It is recommended to combine this with ``--reference`` and ``--pair`` if applicable for even better compression.
 
-``genozip --best myfile.fq.gz``
+``genozip --best myfile.fq.gz --reference hs37d5.ref.genozip``
+
+**Fast compression**
+
+Using the ``--fast`` option causes Genozip compress faster, at the expense of a lower compression ratio. This option also usually results in faster decompression and lower memory consumption.
+
+``genozip --fast myfile.fq.gz --reference hs37d5.ref.genozip``
 
 **Optimizing compression**
 

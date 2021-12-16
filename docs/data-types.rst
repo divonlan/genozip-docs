@@ -9,14 +9,14 @@ File Types
 .. toctree::
    :maxdepth: 1
 
-   Genozip BAM, CRAM or SAM<bam>
-   Genozip FASTQ files<fastq>
-   Genozip VCF files<vcf>
-   Genozip FASTA files<fasta>
-   Genozip GFF3 files<gff3>
-   Genozip 23andMe files<me23>
-   Genozip chain files<chain>
-   Genozip kraken files<kraken>
-   Genozip PHYLIP files<phylip>
-   Genozip LOC files<loc>
-   Genozip other files<generic>
+   BAM, CRAM or SAM<bam>
+   FASTQ<fastq>
+   VCF<vcf>
+   FASTA<fasta>
+   GFF3<gff3>
+   23andMe<me23>
+   chain<chain>
+   kraken<kraken>
+   PHYLIP<phylip>
+   LOC<loc>
+   other<generic>

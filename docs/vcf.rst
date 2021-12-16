@@ -3,8 +3,8 @@
 
 .. _vcf:
 
-Genozip VCF files
-=================
+Compressing VCF files
+=====================
 
 **Compressing a VCF or BCF file**
 
@@ -28,6 +28,18 @@ Some useful command line options (for a full list, see :ref:`genozip manual<geno
 **Compressing multiple files into a tar archive**
 
 ``genozip *.vcf --tar mydata.tar``. See details: :ref:`archiving`.
+
+**Best compression**
+
+Using the ``--best`` option causes Genozip to use more aggressive compression methods, at the expense of higher CPU and memory usage, resulting in better compression. 
+
+``genozip --best myfile.vcf.gz``
+
+**Fast compression**
+
+Using the ``--fast`` option causes Genozip compress faster, at the expense of a lower compression ratio. This option also usually results in faster decompression and lower memory consumption.
+
+``genozip --fast myfile.vcf.gz``
 
 **Optimizing compression**
 

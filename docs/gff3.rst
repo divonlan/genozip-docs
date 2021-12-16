@@ -3,8 +3,8 @@
 
 .. _gff3:
 
-Genozip GFF3 files
-==================
+Compressing GFF3 files
+======================
 
 **Compressing a GFF3 file**
 

@@ -3,8 +3,8 @@
 
 .. _bam:
 
-Genozip BAM, SAM or CRAM files
-==============================
+Compressing BAM, CRAM or SAM files
+==================================
 
 **Compressing a BAM or SAM file**
 
@@ -110,6 +110,17 @@ Example:
     -rw-rw-r--+ 1 17G Aug 14 00:10 IonXpress_020_rawlib.b37.bam.genozip
     -rw-rw-r--+ 1 12G Aug 14 00:17 IonXpress_020_rawlib.b37.optimized.bam.genozip
 
+**Best compression**
+
+Using the ``--best`` option causes Genozip to use more aggressive compression methods, at the expense of higher CPU and memory usage, resulting in better compression. 
+
+``genozip --best myfile.bam --reference hs37d5.ref.genozip``
+
+**Fast compression**
+
+Using the ``--fast`` option causes Genozip compress faster, at the expense of a lower compression ratio. This option also usually results in faster decompression and lower memory consumption.
+
+``genozip --fast myfile.bam``
 
 **Converting to a FASTQ** 
 
