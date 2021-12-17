@@ -36,7 +36,7 @@ If you are unsure which category covers your use case, please ask us at `sales@g
   
 **You made your source code public, can't anyone just compile it and use it, without paying?**
 
-When using Genozip to compress their precious genomic data, users are trusting us with their data for the long term, and we want do our best to ensure that the data is still accessible in 20, 50 or 100 years time. This is one of the reasons we develop in C - a stable language in which the kernels of Linux, MacOS and Windows are written, and this is why we make the source code public. The likelihood that our code will still be available and compile on future computers, decades from now, is high. 
+When using Genozip to compress their precious genomic data, users are trusting us with their data for the long term, and we want to do our best to ensure that the data is still accessible in 20, 50 or 100 years time. This is one of the reasons we develop in C - a stable language in which the kernels of Linux, MacOS and Windows are written, and this is why we make the source code public. The likelihood that our code will still be available and compile on future computers, decades from now, is high. 
 
 When making this decision, we were well aware that we will inevitabley encounter dishonest users who will shoplift our product without paying. Unfortunately, this indeed happens - we see users who register with fake details, or users that claim that their use case is academic while in fact it is clinical.
 

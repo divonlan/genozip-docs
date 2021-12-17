@@ -3,8 +3,12 @@
 
 .. _bam:
 
-Compressing BAM, CRAM or SAM files
-==================================
+.. meta::
+   :description: Compressing BAM, CRAM or SAM files
+   :keywords: Compression, BAM, SAM, CRAM
+
+Compressing BAM or CRAM files
+=============================
 
 **Compressing a BAM or SAM file**
 

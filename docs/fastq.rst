@@ -3,6 +3,10 @@
 
 .. _fastq:
 
+.. meta::
+   :description: Compressing FASTQ files
+   :keywords: Compression, FASTQ, fq.gz
+   
 Compressing FASTQ files
 =======================
 
