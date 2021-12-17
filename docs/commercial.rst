@@ -1,7 +1,7 @@
 ..
    (C) 2020-2022 Black Paw Ventures Limited. All rights reserved.
 
-.. _pricing:
+.. _commercial:
 
 Pricing
 =======
