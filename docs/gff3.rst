@@ -3,6 +3,10 @@
 
 .. _gff3:
 
+.. meta::
+   :description: Compressing GFF3 files
+   :keywords: Compression, GFF, GFF3, GVF
+
 Compressing GFF3 files
 ======================
 

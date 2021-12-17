@@ -3,6 +3,10 @@
 
 .. _vcf:
 
+.. meta::
+   :description: Compressing VCF files
+   :keywords: Compression, VCF, BCF, vcf.gz, bcftools
+
 Compressing VCF files
 =====================
 

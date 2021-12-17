@@ -5,7 +5,7 @@
 
 .. meta::
    :description: Compressing FASTQ files
-   :keywords: Compression, FASTQ, fq.gz
+   :keywords: Compression, FASTQ, fq.gz, bwa
    
 Compressing FASTQ files
 =======================

@@ -5,7 +5,7 @@
 
 .. meta::
    :description: Compressing BAM, CRAM or SAM files
-   :keywords: Compression, BAM, SAM, CRAM
+   :keywords: Compression, BAM, SAM, CRAM, bwa, samtools, crumble
 
 Compressing BAM or CRAM files
 =============================
