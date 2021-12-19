@@ -38,11 +38,7 @@ If you are unsure which category covers your use case, please ask us at `sales@g
 
 When using Genozip to compress their precious genomic data, users are trusting us with their data for the long term, and we want to do our best to ensure that the data is still accessible in 20, 50 or 100 years time. This is one of the reasons we develop in C - a stable language in which the kernels of Linux, MacOS and Windows are written, and this is why we make the source code public. The likelihood that our code will still be available and compile on future computers, decades from now, is high. 
 
-When making this decision, we were well aware that we will inevitabley encounter dishonest users who will shoplift our product without paying. Unfortunately, this indeed happens - we see users who register with fake details, or users that claim that their use case is academic while in fact it is clinical.
-
-How does it make us feel? In one word - cheated. Just like you would feel after spending days, nights and weekends working on a project, just to see your employer or customer wiggle out of their obligation to pay.
-
-Luckily, our :ref:`license<license>` does give us recourse against shoplifters in the form of 20% ownership in all revenue generated and intellectual property created involving shoplifted Genozip, and the ability execute on this right at any point in the future.
+When making this decision, we were well aware that we will inevitabley encounter dishonest users who will shoplift our product without paying. 
 
 **I am a compression researcher. May I benchmark my software against Genozip?**
 
