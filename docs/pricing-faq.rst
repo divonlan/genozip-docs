@@ -38,7 +38,9 @@ If you are unsure which category covers your use case, please ask us at `sales@g
 
 When using Genozip to compress their precious genomic data, users are trusting us with their data for the long term, and we want to do our best to ensure that the data is still accessible in 20, 50 or 100 years time. This is one of the reasons we develop in C - a stable language in which the kernels of Linux, MacOS and Windows are written, and this is why we make the source code public. The likelihood that our code will still be available and compile on future computers, decades from now, is high. 
 
-When making this decision, we were well aware that we will inevitabley encounter dishonest users who will shoplift our product without paying. 
+In other words, our code is available so anyone can inspect it and gain confidence in the product, as well as to ensure that files compressed with Genozip are still decompressible decades ahead. However, using the code is still subject to the specified license, that requires paying a licensing fee in some cases.
+
+We know that by "leaving our shop open and unattended" we will inevitabley encounter dishonest shoplifters who are supposed to pay us for using our product but prefer to save a few dollars by cheating a small business like us. That's their choice. 
 
 **I am a compression researcher. May I benchmark my software against Genozip?**
 
