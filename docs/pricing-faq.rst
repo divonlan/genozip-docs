@@ -40,7 +40,7 @@ When using Genozip to compress their precious genomic data, users are trusting u
 
 In other words, our code is available so anyone can inspect it and gain confidence in the product, as well as to ensure that files compressed with Genozip are still decompressible decades ahead. However, using the code is still subject to the specified license, that requires paying a licensing fee in some cases.
 
-We know that by "leaving our shop open and unattended" we will inevitabley encounter dishonest shoplifters who are supposed to pay us for using our product but prefer to save a few dollars by cheating a small business like us. That's their choice. 
+We know that by "leaving our shop open and unattended" we will inevitabley encounter dishonest shoplifters who are supposed to pay us for using our product but prefer to save a few dollars by cheating a small business like us. That's their choice. Nevertheless, we are encouraged to see that the vast majority of our users use our product honestly according to our license.
 
 **I am a compression researcher. May I benchmark my software against Genozip?**
 
