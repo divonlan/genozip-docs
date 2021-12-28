@@ -244,7 +244,7 @@ Examples:
 
                      |
                      
-.. option:: --multiseq  Sequences are somewhat similar to each other (e.g. multiple sequences of the same virus). genozip uses this information to improve the compression.
+.. option:: --multiseq  Inform genozip that the sequences are somewhat similar to each other (e.g. multiple sequences of the same virus). genozip uses this information to improve the compression.
 
                      |
 
@@ -268,7 +268,7 @@ Examples:
    | Example: ``cat *.fa | genozip --input fasta --make-reference --output myref.ref.genozip``
    |
                      
-.. option:: --multiseq  Sequences are somewhat similar to each other (e.g. multiple sequences of the same virus). genozip uses this information to improve the compression.
+.. option:: --multiseq  Inform genozip that the sequences are somewhat similar to each other (e.g. multiple sequences of the same virus). genozip uses this information to improve the compression.
 
                      |
 
