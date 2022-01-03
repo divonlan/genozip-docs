@@ -46,6 +46,10 @@ We decided to make our code publicly available so that users can inspect it and 
 
 We know that by "leaving our shop open and unattended" we will inevitabley encounter dishonest shoplifters. Nevertheless, we are encouraged to see that the vast majority of our users use our product honestly according to our license.
 
+**Genozip is awesome! I am using it for free. How can I contribute to its success?**
+
+You can `Recommend it on ResearchGate <https://www.researchgate.net/publication/349347156_Genozip_-_A_Universal_Extensible_Genomic_Data_Compressor>`_, `Star it on GitHub <https://github.com/divonlan/genozip>`_, cite our :ref:`publications <publications>`, and tell your colleagues.
+
 **I am a compression researcher. May I benchmark my software against Genozip?**
 
 Yes! We love competition and thrive on it.
