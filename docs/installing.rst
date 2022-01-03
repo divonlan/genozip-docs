@@ -9,7 +9,7 @@ Installing
       | ``conda install genozip``
 
    **Linux binaries** (x86-64, statically linked, works on most Linux systems)
-      | Download: :download:`genozip-linux-x86_64.tar.gz <genozip-linux-x86_64.tar>` 
+      | Download: :download:`genozip-linux-x86_64.tar <genozip-linux-x86_64.tar>` 
 
    **Windows installer**: 
       | Download: :download:`genozip-installer.exe <genozip-installer.exe>` 
