@@ -34,5 +34,9 @@ Another non-commercial application                 Please contact sales@genozip.
 :sup:`1` This includes unlimited usage on all computers owned or leased by the organization, including accounts on 3rd party cloud providers owned by the organization. 
 
 
+`ROI Calculator <https://docs.google.com/spreadsheets/d/1A-l2Qa7nRR7wry6jm4vHROcFqOysbK_LbuJMs-rG_40>`_
+
+:ref:`Frequently Asked Questions<FAQ>`
+
 **To purchase a license, please contact:** `sales@genozip.com <mailto:sales@genozip.com>`_
 

@@ -34,14 +34,18 @@ The :ref:`Genozip License <license>` defines the exact cases for which use of Ge
 
 If you are unsure which category covers your use case, please ask us at `sales@genozip.com <mailto:sales@genozip.com>`_.
   
+**What is the return on investment for a Genozip license?**
+
+Investing in a Genozip license usually has an excellent return on investment, but the details depend on your exact use case.
+
+Here is a template spreadsheet: `Genozip Return on Investment <https://docs.google.com/spreadsheets/d/1A-l2Qa7nRR7wry6jm4vHROcFqOysbK_LbuJMs-rG_40>`_.
+
 **You made your source code public, can't anyone just compile it and use it, without paying?**
 
-When using Genozip to compress their precious genomic data, users are trusting us with their data for the long term, and we want to do our best to ensure that the data is still accessible in 20, 50 or 100 years time. This is one of the reasons we develop in C - a stable language in which the kernels of Linux, MacOS and Windows are written, and this is why we make the source code public. The likelihood that our code will still be available and compile on future computers, decades from now, is high. 
+We decided to make our code publicly available so that users can inspect it and gain confidence in the product, as well as to ensure that files compressed with Genozip are still decompressible decades ahead. However, using the code is still subject to the specified license, that requires paying a licensing fee in some cases.
 
-In other words, our code is available so anyone can inspect it and gain confidence in the product, as well as to ensure that files compressed with Genozip are still decompressible decades ahead. However, using the code is still subject to the specified license, that requires paying a licensing fee in some cases.
-
-We know that by "leaving our shop open and unattended" we will inevitabley encounter dishonest shoplifters who are supposed to pay us for using our product but prefer to save a few dollars by cheating a small business like us. That's their choice. Nevertheless, we are encouraged to see that the vast majority of our users use our product honestly according to our license.
+We know that by "leaving our shop open and unattended" we will inevitabley encounter dishonest shoplifters. Nevertheless, we are encouraged to see that the vast majority of our users use our product honestly according to our license.
 
 **I am a compression researcher. May I benchmark my software against Genozip?**
 
-Yes! We love competition. There is nothing like competition to drive technological progress. 
+Yes! We love competition and thrive on it.
