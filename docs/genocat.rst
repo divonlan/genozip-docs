@@ -351,10 +351,6 @@ One or more file names must be given.
 
 **Chain file options**
 
-.. option:: --with-chr.  rewrites the qName - single-character or double-digit chromosome names are prefixed with "chr" and "MT" is rewritten as "chrM".
-
-          |
-
 .. option:: --show-chain  Show chain file alignments. 
 
           |

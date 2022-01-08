@@ -96,15 +96,3 @@ Column 9 contains the ALN_I of an alignment with an overlapping Luft range: This
 
 Note: All contigs of the respective reference files are shown, even if not referred to in the chain data.
 
-**--with-chr: Renaming Luft contigs ("qName") eg "22" to "chr22"**
-
-Example:
-
-::
-
-    > genocat GRCh37_to_GRCh38.chain.genozip | head -1
-    chain 1 1 249250621 + 10000 267719 1 248956422 + 10000 297968 2
-
-    > genocat GRCh37_to_GRCh38.chain.genozip --with-chr | head -1
-    chain 1 1 249250621 + 10000 267719 chr1 248956422 + 10000 297968 2
-
