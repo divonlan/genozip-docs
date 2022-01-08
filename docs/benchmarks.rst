@@ -17,6 +17,7 @@ Details                          Type             Size      .gz Size  .genozip  
 ================================ ================ ========= ========= ========= ============ ============ ================================= ==============================
 :ref:`details<benchmark-FASTQ1>` FASTQ (Illumina) 294.7 GB  61.2 GB   13.5 GB   21.8X        4.5X         30x Illumina NovaSeq (R1+R2)      Unpublished
 :ref:`details<benchmark-FASTQ2>` FASTQ (Nanopore) 538 MB    268 MB    169.5 MB  3.2X         1.6X         Nanopore (virus) :sup:`1`         `NCBI <https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos/sra-pub-run-1/ERR2708427/ERR2708427.1>`_
+:ref:`details<benchmark-FASTQ3>` FASTQ (BGI)      265.5 GB  99.9 GB   48.8 MB   5.4X         2.0X         DNBSEQ-G400 (R1+R2)               `CNGB Sequence Archive <https://ftp.cngb.org/pub/CNSA/data1/CNP0000466/CNS0094977/CNX0058578/CNR0077391/>`_
 :ref:`details<benchmark-BAM1>`   BAM (Illumina)   41 GB               10 GB     4.1X                      30x Illumina NovaSeq + Dragen     Unpublished
 :ref:`details<benchmark-BAM2>`   BAM (PacBio CLR) 53.8 GB             28 GB     1.9X                      PacBio CLR (mapped)               `1000 Genozip Project <ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/working/20131209 na12878 pacbio/si/NA12878.pacbio.bwa-sw.20140202.bam>`_
 :ref:`details<benchmark-BAM3>`   BAM (PacBio CCS) 73.8 GB             38.7 GB   1.9X                      PacBio CCS + Winnowmap (mapped)   `Telomere-to-telomere consortium <https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/alignments/chm13.draft_v1.1.hifi_20k.wm_2.01.pri.bam>`_
@@ -94,6 +95,31 @@ Notes:
     LINE3                     54 B   0.0%   14.0 MB   2.6% 271727.3X
     GENOZIP vs BGZF       169.5 MB 100.0%  267.7 MB 100.0%    1.6X
     GENOZIP vs TXT        169.5 MB 100.0%  537.5 MB 100.0%    3.2X
+
+
+.. _benchmark-FASTQ3:
+
+**FASTQ - BGI data**
+
+::
+
+    FASTQ files (paired): V300016152A_L01_read_1.fq.gz V300016152A_L01_read_2.fq.gz
+    Reference: hs37d5.ref.genozip MD5=b0e641c998cc3eae6fa2f8726d98cddd genozip_version=12
+    Sequences: 850,258,934   Dictionaries: 38   Vblocks: 532 x 512 MB  Sections: 9013
+    Read name style: BGI-R9/
+    Genozip version: 13.0.8 github
+    Date compressed: 2022-01-05 22:53:48 ACDT
+    Command line: genozip -e hs37d5.ref.genozip -tw2 -f --best V300016152A_L01_read_1.fq.gz V300016152A_L01_read_2.fq.gz
+
+    Sections (sorted by % of genozip file):
+    NAME                   GENOZIP      %       TXT      %   RATIO
+    QUAL                   43.8 GB  89.8%  118.8 GB  44.7%    2.7X
+    SEQ                     4.9 GB  10.0%  118.8 GB  44.7%   24.3X
+    DESC                   77.1 MB   0.2%   23.2 GB   8.7%  307.9X
+    Other                  63.9 KB   0.0%    4.8 GB   1.8% 78018.5X
+    LINE3                  21.3 KB   0.0%         -   0.0%    0.0X
+    GENOZIP vs GZ          48.8 GB 100.0%   99.9 GB 100.0%    2.0X
+    GENOZIP vs TXT         48.8 GB 100.0%  265.5 GB 100.0%    5.4X
 
 
 .. _benchmark-BAM1:
