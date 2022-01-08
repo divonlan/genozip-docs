@@ -210,11 +210,15 @@ Usage: as flags for ``genozip`` (Z), ``genounzip`` (U), ``genocat`` (C), ``genol
 
           |
 
-.. option:: --show-wrong-md.  C. SAM with MD:Z field - shows cases where the special MD algorithm is not applied to the MD:Z in the data
+.. option:: --show-wrong-md.  C. SAM with MD:Z field - shows cases where the special MD algorithm is not applied to the MD:Z in the data.
 
           |
 
-.. option:: --debug-LONG.  C. SAM/BAM and FASTQ: treat data as long reads regardless of the actual read length
+.. option:: --debug-LONG.  C. SAM/BAM and FASTQ: treat data as long reads regardless of the actual read length.
+
+          |
+
+.. option:: --debug-qname.  C. SAM/BAM and FASTQ: show QNAME flavor unit test.
 
           |
 
