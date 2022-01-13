@@ -19,11 +19,11 @@ Details                          Type             Size      .gz Size  .genozip  
 :ref:`details<benchmark-FASTQ2>` FASTQ (Nanopore) 538 MB    268 MB    169.5 MB  3.2X         1.6X         Nanopore (virus) :sup:`1`         `NCBI <https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos/sra-pub-run-1/ERR2708427/ERR2708427.1>`_
 :ref:`details<benchmark-FASTQ3>` FASTQ (BGI)      265.5 GB  99.9 GB   48.8 MB   5.4X         2.0X         DNBSEQ-G400 (R1+R2)               `CNGB Sequence Archive <https://ftp.cngb.org/pub/CNSA/data1/CNP0000466/CNS0094977/CNX0058578/CNR0077391/>`_
 :ref:`details<benchmark-BAM1>`   BAM (Illumina)   41 GB               10 GB     4.1X                      30x Illumina NovaSeq + Dragen     Unpublished
-:ref:`details<benchmark-BAM2>`   BAM (PacBio CLR) 53.8 GB             28 GB     1.9X                      PacBio CLR (mapped)               `1000 Genozip Project <ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/working/20131209 na12878 pacbio/si/NA12878.pacbio.bwa-sw.20140202.bam>`_
+:ref:`details<benchmark-BAM2>`   BAM (PacBio CLR) 53.8 GB             28 GB     1.9X                      PacBio CLR (mapped)               `1000 Genomes Project <ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/working/20131209 na12878 pacbio/si/NA12878.pacbio.bwa-sw.20140202.bam>`_
 :ref:`details<benchmark-BAM3>`   BAM (PacBio CCS) 73.8 GB             38.7 GB   1.9X                      PacBio CCS + Winnowmap (mapped)   `Telomere-to-telomere consortium <https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/alignments/chm13.draft_v1.1.hifi_20k.wm_2.01.pri.bam>`_
 :ref:`details<benchmark-BAM4>`   BAM (Nanopore)   384.1 GB            209.3 GB  1.8X                      Nanopore + Winnowmap (mapped)     `Telomere-to-telomere consortium <https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/alignments/chm13.draft_v1.1.ont_guppy_3.6.0.wm_2.01.pri.bam>`_
 :ref:`details<benchmark-CRAM1>`  CRAM (Illumina)  15 GB               9.8 GB    1.5X                      Illumina NovaSeq + bwa mem        `The European Bioinformatics Institute <ftp://ftp.sra.ebi.ac.uk/vol1/run/ERR323/ERR3239334/NA12878.final.cram>`_
-:ref:`details<benchmark-VCF1>`   VCF              175.3 GB  27 GB     7.8 GB    22.4X        3.3X         3202 human samples                `1000 Genome Project <ftp://ftp=trace.ncbi.nih.gov/1000genomes/ftp/release/20110521/20201028_CCDG_14151_B01_GRM_WGS_2020=08=05_chr22.recalibrated_variants.vcf.gz>`_
+:ref:`details<benchmark-VCF1>`   VCF              175.3 GB  27 GB     7.8 GB    22.4X        3.3X         3202 human samples                `1000 Genomes Project <ftp://ftp=trace.ncbi.nih.gov/1000genomes/ftp/release/20110521/20201028_CCDG_14151_B01_GRM_WGS_2020=08=05_chr22.recalibrated_variants.vcf.gz>`_
 :ref:`details<benchmark-VCF2>`   VCF              1.2 TB    132.4 GB  31.6 GB   37.9X        4.2X         1135 plant samples                `1001 Genomes - Arabidopsis Thaliana <https://1001genomes.org/data/GMI-MPI/releases/v3.1/1001genomes_snp-short-indel_with_tair10_only_ACGTN.vcf.gz>`_
 :ref:`details<benchmark-VCF3>`   VCF              26 GB     1.9 GB    315.5 MB  84.3X        6.2X         Rice                              `3K Rice Genome <https://3kricegenome.s3.amazonaws.com/9311/IRIS_313-10000.snp.vcf.gz>`_
 :ref:`details<benchmark-FASTA1>` FASTA            1.2 GB    254.9 MB  1.5 MB    838.4X       170X         Covid-19 multi-FASTA :sup:`2`     `coronavirus.innar.com <https://coronavirus.innar.com/coronavirus.unwrapped.fasta.zip>`_
@@ -347,7 +347,7 @@ Notes:
 
 .. _benchmark-VCF1:
 
-**VCF - 3202 samples from the 1000 Genome Project**
+**VCF - 3202 samples from the 1000 Genomes Project**
 
 ::
 
