@@ -52,7 +52,6 @@ Table of contents
    File Types <data-types>
    Manual <manual>
    Capabilities <capabilities>
-   Applications <applications> 
    Algorithms <algorithms>
    Publications & Citing <publications>
    Pricing <commercial>

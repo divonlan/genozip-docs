@@ -155,3 +155,4 @@ When cross-rendering (either in ``genocat --luft`` or when executing ``genozip``
 
 * Note: fields with RendAlg=A_1 or PLOIDY which contain a value in scientific notation, e.g. 2.3e-04, who's variant is a REF⇆ALT switch, are converted to standard notation during *lifting* (i.e. ``genozip --chain``), so ``2.3e-04`` is changed to ``0.00023``. This is to ensure losslessness when cross-rendering variants with a REF⇆ALT switch.
   
+Questions? `support@genozip.com <mailto:support@genozip.com>`_

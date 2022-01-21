@@ -314,3 +314,4 @@ In ``genozip``, each compute thread is assigned a segment of the input file, kno
 
 When using a reference file, it is loaded to memory too. If multiple ``genozip``/ ``genocat`` / ``genounzip`` processes are running in parallel, only one copy of the reference file is loaded to memory and shared between all processes, and depending on how busy the computer is, that reference file data might persist in RAM even *between* consecutive runs, saving Genozip the need to load it again from disk. All this all happens behind the scenes.
 
+Questions? `support@genozip.com <mailto:support@genozip.com>`_

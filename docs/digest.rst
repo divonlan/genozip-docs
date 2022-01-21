@@ -99,4 +99,4 @@ Viewing the digest of the entire as it appears in the GENOZIP_HEADER section of 
     genocat --show-header=GENOZIP_HEADER myfile.sam.genozip
     genocat --show-header=TXT_HEADER myfile.sam.genozip
 
-
+Questions? `support@genozip.com <mailto:support@genozip.com>`_

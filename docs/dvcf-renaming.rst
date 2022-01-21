@@ -82,3 +82,5 @@ To override Genozip's default renaming, just rename the tag to itself, for examp
 **The --show-rename-tags option**
 
 The ``--show-rename-tags`` can be used in combination with ``--chain`` or when compressing a DVCF file, to display the list of annotations that are to be renamed.
+
+Questions? `support@genozip.com <mailto:support@genozip.com>`_

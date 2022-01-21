@@ -156,3 +156,4 @@ To handle this, we prepare a concatenated kraken.genozip file, from the output o
 | It is ok if the kraken data contains additional read names not present in the viewed file.
 |
 
+Questions? `support@genozip.com <mailto:support@genozip.com>`_

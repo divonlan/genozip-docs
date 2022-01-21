@@ -30,4 +30,4 @@ Genozip requires registration prior to use, and its a violation of Genozip's lic
 
     genozip --licfile mydir/.genozip_license mydata.bam
 
-Still having issues? email support@genozip.com for help.
+Still having issues? email `support@genozip.com <mailto:support@genozip.com>`_ for help.

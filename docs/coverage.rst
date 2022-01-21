@@ -86,3 +86,5 @@ Output is space-seperated if sent to a terminal, and tab-seperated if redirected
 **Using with FASTQ**
 
   This works both on SAM/BAM and on FASTQ. For FASTQ, the mapping to contigs is as reported by the Genozip Aligner. The Genozip Aligner maps reads for compression purposes and does not attempt to map them according to the biological truth. However, usually the large majority of reads are in fact mapped to their correct position, so this can give a reasonable approximation of coverage of the data directly from FASTQ without needing to map it to BAM. 
+
+Questions? `support@genozip.com <mailto:support@genozip.com>`_

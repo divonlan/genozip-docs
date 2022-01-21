@@ -3,8 +3,8 @@
 
 Contact
 =======
-Technical questions, bug reports and feature requests: support@genozip.com
+Technical questions, bug reports and feature requests: `support@genozip.com <mailto:support@genozip.com>`_
 
-Subscription inquiries: sales@genozip.com
+Subscription inquiries: `sales@genozip.com <mailto:sales@genozip.com>`_
 
 |

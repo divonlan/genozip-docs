@@ -49,3 +49,5 @@ The columns are:
 Alternative sex assignment with `sexassign.py <https://github.com/grahamgower/sexassign>`_ (on Linux):
 
 ``genocat mysample.bam.genozip --idxstats | sexassign.py /dev/fd/0``
+
+Questions? `support@genozip.com <mailto:support@genozip.com>`_

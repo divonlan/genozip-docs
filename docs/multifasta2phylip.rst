@@ -25,3 +25,5 @@ Converting a Phylip file to a MultiFASTA file:
 Note: the input files can be plain files, or compressed with .gz .bz2 or .xz. The output files may be plain files or .gz.
 
 Note: if the Phylip input file doesn't have a .phy (or .phy.gz / .phy.bz2 / .phy.xz) file name extenion, you can tell genozip that this is a Phylip file with ``--input phy``.
+
+Questions? `support@genozip.com <mailto:support@genozip.com>`_

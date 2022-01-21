@@ -22,6 +22,4 @@ Cases in which variants won't be lifted and will remain primary-only, despite it
 | 
 | Note: When running ``genozip --chain``, a human-readable *rejects file*, eg ``mydata.d.vcf.genozip.rejects`` will describe the cause of each rejected variant.
     
-
-
-    
+Questions? `support@genozip.com <mailto:support@genozip.com>`_

@@ -101,3 +101,5 @@ Genozip can run on any type of file, but it is optimized to compress genomic fil
 **Compressing and then verifying that the compressed file decompresses correctly**
 
     | ``genozip file.vcf --test``
+
+Questions? `support@genozip.com <mailto:support@genozip.com>`_

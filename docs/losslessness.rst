@@ -27,3 +27,4 @@ When uncompressing with ``genounzip`` or ``genocat``, these tools verify that th
 | 
 | 3. Compressing already-compressed files (.bz2 .xz and non-BGZF .gz): ``genozip`` is capable of compressing files that are already compressed with these methods. It does so by first uncompressing the file, and then recompressing with Genozip. However, in these cases, ``genounzip`` does not recompress the files back to .bz2 .xz or .gz.
    
+Questions? `support@genozip.com <mailto:support@genozip.com>`_

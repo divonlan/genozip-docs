@@ -100,3 +100,5 @@ Consider a simple paired-end SAM file with three alignments, all with the same Q
     CCATTACTGGGTATATACCCAAAGGATTATAAATCGTGCTACTATAAAGACACATGCACATGTATGTTTATTGTGGCACTATTCACAATAGCAAAGACTTTGAACCAACCCAAATGTCCATTAATGACAGACTGGATTAAGAAAATGTG
     +
     AAFFFJJ
+
+    Questions? `support@genozip.com <mailto:support@genozip.com>`_

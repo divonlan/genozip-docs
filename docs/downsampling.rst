@@ -77,3 +77,5 @@ Getting the middle read of every 3 consecutive FASTQ reads (i.e. read 1 of every
     NCTTTCAAGAGCAGCCCCAGCTCCTTAAGCTGCTGGTCCTGGTGCATCTGCTGACTTTCATGTAGAAGAT
     +
     #FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+
+Questions? `support@genozip.com <mailto:support@genozip.com>`_

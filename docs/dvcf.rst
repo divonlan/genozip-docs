@@ -537,3 +537,5 @@ INFO/AC                   Failed to cross-render AC: INFO/AN is missing for this
 INFO/*tag*                Failed to cross-render this INFO tag
 FORMAT/*tag*              Failed to cross-render this FORMAT tag
 ========================= ==================================
+
+Questions? `support@genozip.com <mailto:support@genozip.com>`_

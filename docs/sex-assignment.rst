@@ -70,3 +70,5 @@ Output is space-seperated if sent to a terminal, and tab-seperated if redirected
   | • Assignment of reads to contigs is based on the Genozip Aligner which is designed to be very fast at the expense of accuracy. This feature works because the Male vs. Female signal is usually stronger than the Genozip Aligner inaccuracies, however when running on FASTQ, the algorithm will be more conservative than when running on SAM/BAM and will report "Unassigned" in some cases where it would confidently call a Sex when running on SAM/BAM data.
   |
   | • This has been tested on fastq.genozip files which consist of human data compressed with the GRCh38 reference genome. It yet unknown if the algorithm would work with other species data or other reference genomes.  
+
+Questions? `support@genozip.com <mailto:support@genozip.com>`_

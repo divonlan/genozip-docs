@@ -163,3 +163,4 @@ In ``genozip``, each compute thread is assigned a segment of the input file, kno
 
 ``genocat`` and ``genounzip`` also consume memory linearly with (VBlock-size X number-of-threads), where VBlock-size is the value used by ``genozip`` of the particular file (it cannot be modified ``genocat`` or ``genounzip``). Usually, ``genocat`` and ``genounzip`` consume significantly less memory compared to ``genozip``.
 
+Questions? `support@genozip.com <mailto:support@genozip.com>`_

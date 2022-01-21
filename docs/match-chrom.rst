@@ -85,3 +85,4 @@ The reference file (``hg19.p13.plusMT.full_analysis_set.ref.genozip`` in the exa
 
     genozip hg19.p13.plusMT.full_analysis_set.fa.gz : Done (8 minutes 59 seconds)
 
+Questions? `support@genozip.com <mailto:support@genozip.com>`_

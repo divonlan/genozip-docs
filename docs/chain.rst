@@ -96,3 +96,4 @@ Column 9 contains the ALN_I of an alignment with an overlapping Luft range: This
 
 Note: All contigs of the respective reference files are shown, even if not referred to in the chain data.
 
+Questions? `support@genozip.com <mailto:support@genozip.com>`_
