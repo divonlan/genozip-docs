@@ -297,7 +297,7 @@ Calculates idxstats, similar to `samtools idxstats <http://www.htslib.org/doc/sa
 An experimental feature for calculating coverage and depth, see :ref:`coverage`.
 
 **Sex assignment**
- 
+
 ``genocat --show-sex myfile.bam.genozip``
 
 An experimental feature for determining the sex of a sample, see :ref:`sex`.
