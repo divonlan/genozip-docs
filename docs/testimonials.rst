@@ -13,6 +13,8 @@ User Testimonials
 |
 |
 
+-------------------------------------------------------------------------
+
 *シーケンスコストの劇的な低下と解析技術の進歩により、NGSで得られるデータ量は劇的に増加している。しかしながらデータの解析と保存に用いるためのストレージのコストに同様の低下は見られず、シーケンス解析上の大きな問題となっている。
 私は現在京都大学でチームの一員として、単一細胞解析や全ゲノム解析のプロジェクトに従事しているが、急速に増加する一方のシーケンスデータに大変苦慮していた。Genozipをコラボレーターに紹介していただいてチーム内で検証を行ったところ、実行速度の速さ、圧縮率の高さ、汎用性の高さ、導入の容易さ、サポートの迅速さに感銘を覚え、現在はチームの全てのBamファイルやFastqファイルをGenozipで圧縮している。圧縮・解凍速度の速さは日常的に使用する上で非常に重要であり、これまでは長期保存する場合のみ圧縮していたが、現在は短期保存のファイルも圧縮して運用しており、結果的に非常に使用データ量の削減につながっている。*
 
@@ -23,3 +25,11 @@ I am currently working as a member of a team at Kyoto University on single-cell 
 | Program-Specific Associate Professor
 | Department of Pathology and Tumor biology, Graduate School of Medicine, Kyoto University
 
+-------------------------------------------------------------------------
+
+*I came across Genozip while googling to find a recent program that would manage more efficiently very large archives of genomic data. I decided to give it a try and encountered a bug that was fixed immediately and the new version released to conda just hours later. The program works nicely and is really impressive for the space it saves compared to former archives as well as for all the features implemented to handle swiftly created archives. Genozip is now installed on all the clusters and servers I use. Divon is very active to answer questions and fix bugs. I really recommend Genozip.*
+
+| **Komlan Avia, PhD**
+| Research scientist in grape genetics
+| INRAE, Colmar
+| France

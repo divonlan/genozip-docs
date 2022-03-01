@@ -61,9 +61,10 @@ Examples:
                      |
                      
 .. include:: opt-subdirs.rst 
-.. option:: -o, --output output-filename.  This option can also be used to bind multiple input files into a single genozip file. genounzip will unbind the file back to its components while genocat will concatenate them. To bind files they must be of the same type (e.g. VCF or SAM) and if they are VCF files they must contain the same samples. genozip takes advantage of similarities between the input files so that the bound file is usually smaller than the combined size of individually compressed files.
-
-                     |
+.. option:: -o, --output output-filename.  
+   
+      | Note: This option can also be used to bind multiple input files into a single genozip file, see :ref:`archiving`.
+      |
 
 .. option:: -9, --optimize, --optimise  Modify the file in ways that are likely insignificant for analytical purposes but significantly improve compression and somewhat improve the speed of genocat --regions. This option activates all optimizations.
 
@@ -93,16 +94,19 @@ Examples:
       | ``tar xvf tarfilename.tar |& genounzip --files-from - --replace``
       |
 
-.. option:: -m, --md5  Use MD5 (rather than the default Adler32) to calculate the digest of the original textual file. The MD5 digest is also viewable with genols. Note: for compressed files (e.g. myfile.vcf.gz or myfile.bam) the MD5 calculated is that of the original uncompressed textual file - myfile.vcf or myfile.sam respectively.
-             
-                     |
-                     
 .. option:: -I, --input-size file-size-in-bytes.  genozip configures its internal data structures to optimize execution speed based on the file size. When redirecting the input file with < or | genozip cannot determine its size and this might result in slower execution. This problem can be overcome by using this flag to inform genozip of the file size.
 
                      |
                      
-.. option:: -t, --test  After compressing normally decompresss in memory (i.e. without writing the decompressed file to disk) - comparing the MD5 of the resulting textual decompressed file to that of the original textual file. This option also activates --md5.
+.. option:: -t, --test  After compressing normally - decompress in memory (i.e. without writing the decompressed file to disk) - comparing the digest of resulting decompressed file to that of the original file. The digest algorithm used is Adler32 - this may be changed to (slower) MD5 by combining with --md5. 
 
+      | Note: Running ``genozip --test`` is the same as running ``genozip`` followed by ``genounzip --test``. 
+      |
+      | Note: If the file is compressed (eg with .gz), the digest calculated is of the uncompressed file. 
+      |
+                     
+.. option:: -m, --md5  Use MD5 (rather than the default Adler32) to calculate the digest of the file. The MD5 digest is also viewable with genols. Note: for compressed files (e.g. myfile.vcf.gz or myfile.bam) the MD5 calculated is that of the original uncompressed file - (e.g. myfile.vcf or myfile.sam respectively).
+             
                      |
                      
 .. include:: opt-quiet.rst
