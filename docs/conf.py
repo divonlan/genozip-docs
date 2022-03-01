@@ -22,7 +22,7 @@ copyright = '2019-2022, Black Paw Ventures Limited'
 author = 'Divon Lan'
 
 # The full version, including alpha/beta/rc tags
-release = '13.0.9'
+release = '13.0.11'
 
 
 # -- General configuration ---------------------------------------------------
