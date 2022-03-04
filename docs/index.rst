@@ -4,8 +4,7 @@
 Genozip
 =======
 
-.. image:: unavailable-in-russia.png
-   :width: 600
+**GENOZIP IS CURRENTLY UNAVAILABLE IN RUSSIA DUE TO THE HORRENDOUS WAR CRIMES BEING CONDUCTED BY RUSSIA IN UKRAINE**
 
 *A universal compressor for genomic files*
             
