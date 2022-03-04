@@ -3,6 +3,10 @@
 
 Genozip
 =======
+
+.. image:: unavailable-in-russia.png
+   :width: 600
+
 *A universal compressor for genomic files*
             
 Genozip is a universal compressor for genomic files - :ref:`FASTQ <fastq>`, :ref:`BAM/CRAM <bam>`, :ref:`VCF <vcf>` and :ref:`many other file formats <data-types>` (including non-genomic files). 
