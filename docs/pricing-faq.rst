@@ -33,7 +33,11 @@ The :ref:`Genozip License <license>` defines the exact cases for which use of Ge
 - Service: You are providing a service to your customers, such as DNA sequencing, DNA analysis, bioinformatics, SaaS or cloud.
 
 If you are unsure which category covers your use case, please ask us at `sales@genozip.com <mailto:sales@genozip.com>`_.
-  
+
+**We are a research institution, using Genozip on important data. How can we ensure we have access to support?**
+
+Genozip provides support to paying customers. Support to non-paying customers is provided subject to availability of resources and to whether we think the problem is of interest to the broarder Genozip user community. If you are dealing with important data, you might want to consider paying for a license so you can get access to support if needed.
+
 **What is the return on investment for a Genozip license?**
 
 Investing in a Genozip license usually has an excellent return on investment, but the details depend on your exact use case.
