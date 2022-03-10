@@ -54,23 +54,25 @@ One or more file names must be given.
    |
    | *Examples*: 
 
-   ============================================== ======================================
-   ``genocat myfile.vcf.genozip -r 22:1000-2000`` Positions 1000 to 2000 on contig 22
-   ``genocat myfile.ref.genozip -r 22:2000-1000`` Reverse complement of positions 1000 to 2000 on contig 22 (reference file only)
-   ``genocat myfile.sam.genozip -r 22:1000+151``  151 bases, starting pos 1000, on contig 22
-   ``genocat myfile.ref.genozip -r 22:1000-151``  Reverse complement of 151 bases, from 1000 to 850, on contig 22 (reference file only)
-   ``genocat myfile.vcf.genozip -r -2000,2500-``  Two ranges on all contigs
-   ``genocat myfile.sam.genozip -r chr21,chr22``  Contigs chr21 and chr22 in their entirety
-   ``genocat myfile.vcf.genozip -r ^MT,Y``        All contigs, excluding MT and Y
-   ``genocat myfile.vcf.genozip -r ^-1000``       All contigs, excluding positions up to 1000
-   ``genocat myfile.fa.genozip  -r chrM``         Contig chrM
-   ============================================== ======================================
+   ================================================= ======================================
+   ``genocat myfile.vcf.genozip -r 22:1000-2000``    Positions 1000 to 2000 on contig 22
+   ``genocat -e myfile.ref.genozip -r 22:2000-1000`` Reverse complement of positions 1000 to 2000 on contig 22 (reference file only)
+   ``genocat myfile.sam.genozip -r 22:1000+151``     151 bases, starting pos 1000, on contig 22
+   ``genocat -e myfile.ref.genozip -r 22:1000-151``  Reverse complement of 151 bases, from 1000 to 850, on contig 22 (reference file only)
+   ``genocat myfile.vcf.genozip -r -2000,2500-``     Two ranges on all contigs
+   ``genocat myfile.sam.genozip -r chr21,chr22``     Contigs chr21 and chr22 in their entirety
+   ``genocat myfile.vcf.genozip -r ^MT,Y``           All contigs, excluding MT and Y
+   ``genocat myfile.vcf.genozip -r ^-1000``          All contigs, excluding positions up to 1000
+   ``genocat myfile.fa.genozip  -r chrM``            Contig chrM
+   ================================================= ======================================
 
    | *Note*: genozip files are indexed automatically during compression. There is no separate indexing step or separate index file.
    |
    | *Note*: Indels are considered part of a region if their start position is.
    |
    | *Note*: Multiple ``-r`` arguments may be specified - this is equivalent to chaining their regions with a comma separator in a single argument.
+   |
+   | *Note*: For Reference files, use in combination with --reference (or -e).
    |
    | *Note*: For FASTA and Chain files, only whole-contig regions are possible.
    |
