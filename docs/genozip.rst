@@ -269,7 +269,7 @@ Examples:
 
    | Example: ``genozip --make-reference hs37d5.fa.gz``
    |
-   | Example: ``cat *.fa | genozip --input fasta --make-reference --output myref.ref.genozip``
+   | Example: ``cat *.fa | genozip --input fasta --make-reference - --output myref.ref.genozip``
    |
                      
 .. option:: --multiseq  Inform genozip that the sequences are somewhat similar to each other (e.g. multiple sequences of the same virus). genozip uses this information to improve the compression.
