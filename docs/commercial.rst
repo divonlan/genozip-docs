@@ -10,7 +10,7 @@ Our business model: Genozip is a small business that strives to create the world
 
 In short, if the essense of what you are doing is making scientific discoveries and publishing them in scientific journals, then please go ahead and use Genozip for free. On the other hand, if handling genomic data ultimately generates revenue for your organization or direct clinical benefit to the individuals sampled, we ask that you respect us and our hard work by purchasing a license. Please feel free to install Genozip for evaluation purposes for a duration of 30 days.
 
-If you are a research institution eligle for a free Genozip license, you may still want to pay for a license if you require access to support.
+If you are a research institution eligile for a free Genozip license, you may still want to pay for a license if you require access to support.
 
 Pricing: 
 
