@@ -17,11 +17,9 @@ Pricing:
 ==================================================== =================================================== 
 Use case                                             Price
 ==================================================== =================================================== 
-Clinical, product or service (see :ref:`FAQ<FAQ>`)   US$2000/year (when paid annually) 
-                                                     US$200/month (when paid monthly) :sup:`1`
+Clinical, product or service (see :ref:`FAQ<FAQ>`)   US$2000/year (paid annually) :sup:`1`
 
-Academic or Educational with access to Support       US$2000/year (when paid annually) 
-                                                     US$200/month (when paid monthly) :sup:`1`
+Academic or Educational with access to Support       US$2000/year (paid annually) :sup:`1`
 
 Reselling Genozip to your customers                  Please contact sales@genozip.com
 
