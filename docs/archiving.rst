@@ -42,7 +42,7 @@ Example 3: compress and archive all BAM files in the current directory and its s
 
     > find . -name "*.bam" | genozip --tar mydata.tar -T-
 
-Implementation note: Genozip implements the IEEE 1003.1-1988 ("ustar") standard of tar files, with the size field in binary format for files 8GB or larger. This is compatible with most modern tar implementations, including GNU tar.
+Implementation note: Genozip implements the IEEE 1003.1-1988 ("ustar") standard of tar files, with the size field in binary format for files 8GB or larger. The GNU-tar LongLink extension is used for file names longer than 99 characters. This is compatible with most modern tar implementations, including GNU tar.
 
 **2. Binding with --output**
 
