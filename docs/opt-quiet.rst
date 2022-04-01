@@ -1,5 +1,5 @@
 ..
-   (C) 2020-2022 Black Paw Ventures Limited. All rights reserved.
+   (C) 2020-2022 Genozip Limited. All rights reserved.
 
 .. option:: -q, --quiet  Don't show the progress indicator or warnings.
 

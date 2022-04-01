@@ -1,5 +1,5 @@
 ..
-   (C) 2020-2022 Black Paw Ventures Limited. All rights reserved.
+   (C) 2020-2022 Genozip Limited. All rights reserved.
 
 .. _gatk-unexpected-base:
 

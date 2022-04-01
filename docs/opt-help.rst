@@ -1,5 +1,5 @@
 ..
-   (C) 2020-2022 Black Paw Ventures Limited. All rights reserved.
+   (C) 2020-2022 Genozip Limited. All rights reserved.
 
 .. option:: -T, --files-from filename.  An alternative to providing input file names on the command line. filename it a textual file containing a newline-separated list of files. If filename is - (a hyphen) data is taken from stdin rather than a file.
 
