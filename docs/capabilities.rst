@@ -23,5 +23,6 @@ Capabilities
    idxstats <idxstats>
    FASTQ to BAM pipeline <fastq-to-bam-pipeline>
    Handling GATK's "Unexpected base in allele bases" error <gatk-unexpected-base>
-
+   Genozip MIME type <mime-type>
+   
 Questions? `support@genozip.com <mailto:support@genozip.com>`_
