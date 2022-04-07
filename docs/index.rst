@@ -43,11 +43,9 @@ Genozip is a paid professional product (:ref:`Pricing<commercial>`). Genozip is 
 .. include:: contact.rst
 .. include:: publications-list.rst
 
-Table of contents
-=================
-
 .. toctree::
    :maxdepth: 3
+   :hidden:
 
    Installing <installing> 
    Benchmarks <benchmarks> 
@@ -58,6 +56,7 @@ Table of contents
    Algorithms <algorithms>
    Publications & Citing <publications>
    Pricing <commercial>
+   Resellers <resellers>
    License <license>
    Release Notes <release-notes>
    Source code <source>
