@@ -6,4 +6,4 @@ Genozip MIME type
 
 Genozip files are of the MIME type (also known as Media Type): application/vnd.genozip
 
-This is an officially registered MIME type.
+For more details, please see the `registration record <https://www.iana.org/assignments/media-types/application/vnd.genozip>`_

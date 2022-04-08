@@ -18,7 +18,7 @@ Here, we explain how to convert the file to the standard VCF format.
 
 Step 1: Download a reference file - any version of hg19 or GRCh37 will do, for example this one: `hs37d5.fa.gz <ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/phase2_reference_assembly_sequence/hs37d5.fa.gz>`_. This file is quite large: appoximately 900MB.
 
-Step 2: Create a Genozip reference file: This takes about 10 minutes to run:
+Step 2: Create a Genozip reference file: This takes about 3 minutes to run:
 
 ::
 
