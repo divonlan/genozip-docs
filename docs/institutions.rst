@@ -219,7 +219,6 @@ This list was compiled in April 2022, based on the user registration form which 
 | Brigham Young University
 | University of North Texas
 | University of South Carolina
-| University of North Texas Health Science Center
 | University of California San Francisco
 | Columbia University
 | Montana State University
