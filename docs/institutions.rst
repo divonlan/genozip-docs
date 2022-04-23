@@ -55,7 +55,7 @@ This list was compiled in April 2022, based on the user registration form which 
 | South China Normal University
 | Huazhong Agricultural University
 | Capital Normal University
-| SiChuan University
+| Sichuan University
 | Shanghai Jiao Tong University
 | City University of Hong Kong
 | 
