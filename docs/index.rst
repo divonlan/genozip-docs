@@ -50,6 +50,7 @@ Genozip is a paid professional product (:ref:`Pricing<commercial>`). Genozip is 
    Installing <installing> 
    Benchmarks <benchmarks> 
    Testimonials <testimonials> 
+   Who is using it? <institutions>
    File Types <data-types>
    Manual <manual>
    Capabilities <capabilities>
