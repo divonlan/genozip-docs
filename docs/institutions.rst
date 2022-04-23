@@ -205,7 +205,7 @@ This list was compiled in April 2022, based on the user registration form which 
 | **United States of America**
 | University of California San Diego
 | University of Michigan
-| National Institute of Child Health and Human Development
+| National Institute of Child Health and Human Development (NICHD)
 | University of Miami
 | Duke University
 | Iowa State University
