@@ -4,7 +4,7 @@
 Institutions in which Genozip is used
 =====================================
 
-This list was compiled in April 2022, based on the user registration form which is presented to users when they use Genozip for the first time, and filtered for public institutions only - omitting companies and private clinics.
+The list below of institutions in which Genozip is used was compiled in April 2022, based on the user registration form which is presented to users when they use Genozip for the first time, and filtered for public institutions only - omitting companies and private clinics.
 
 | **Argentina**
 | Universidad Nacional de Entre Ríos
@@ -82,7 +82,6 @@ This list was compiled in April 2022, based on the user registration form which 
 | University Hospital Heidelberg
 | Max Planck Institute for Chemical Ecology
 | Max Planck Institute for Plant Breeding Research 
-| Zoological Research Museum Alexander Koenig
 | Universtatsklinikim Schleswig-Holstein
 | GEOMAR Helmholtz-Zentrum für Ozeanforschung Kiel
 | Koenig Zoological Research Museum
