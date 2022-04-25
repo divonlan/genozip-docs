@@ -71,8 +71,8 @@ The list below of institutions in which Genozip is used was compiled in April 20
 | 
 | **France**
 | National Research Institute for Agriculture, Food and Environment (INRAE)
-| University of Lille
 | Centre national de la recherche scientifique (CNRS)
+| University of Lille
 | Inserm
 | GenHotel
 | Assistance Publique - Hopitaux de Paris
@@ -108,26 +108,25 @@ The list below of institutions in which Genozip is used was compiled in April 20
 | University of Naples
 | 
 | **Japan**
-| Kyoto University
+| National Institute of Genetics
 | National Cancer Center Research Institute
+| University Tokyo
+| Kyoto University
 | Shizuoka Cancer Center
 | Nagoya University
 | Tokyo University of Agriculture and Technology
-| University Tokyo
-| Nippon veterinary and life science university
+| Nippon Veterinary and Life Science University
 | Tokyo Medical and Dental University
-| National Cancer Center Research Institute Japan
 | Kumamoto University
 | Human Genome Center
 | Ehime University
-| National institute of genetics
 | Tokyo Seiei College
 | Riken
 | 
 | **Korea**
-| Yonsei university
 | Seoul National University
 | Seoul National University Hospital
+| Yonsei University
 | Korea Research Institute of Bioscience and Biotechnology
 | Ulsan National Institute of Science and Technology
 | Animal and Plant Quarantine Agency
@@ -174,7 +173,7 @@ The list below of institutions in which Genozip is used was compiled in April 20
 | 
 | **Spain**
 | Spanish National Cancer Research Center
-| Centre for research in agricultural Genomics
+| Centre for Research in Agricultural Genomics
 | Institut Hospital del Mar d'Investigacions Mèdiques
 | 
 | **Sweden**
@@ -195,35 +194,35 @@ The list below of institutions in which Genozip is used was compiled in April 20
 | Hacettepe University
 | 
 | **United Kingdom**
-| University of Edinburgh
 | Wellcome Sanger Institute
+| University of Edinburgh
 | University College London
 | University of East Anglia
 | Univesity of Liverpool
 | 
 | **United States of America**
-| University of California San Diego
-| University of Michigan
 | National Institute of Child Health and Human Development (NICHD)
-| University of Miami
+| Harvard University 
+| Columbia University
+| Stanford University
+| Cornell University
+| University of California San Diego
+| University of California San Francisco
+| University of California Santa Barbara
+| Brown University
 | Duke University
+| University of Michigan
+| University of Miami
 | Iowa State University
 | Beth Israel Deaconess Medical Center
 | Auburn University
 | Vanderbilt University
-| Stanford University
-| Brown University
 | University of Wisconsin-Madison
 | University of Nevada, Las Vegas
 | Brigham Young University
 | University of North Texas
 | University of South Carolina
-| University of California San Francisco
-| Columbia University
 | Montana State University
 | Emory University
-| Cornell University
-| Harvard University 
-| University of California Santa Barbara
 | Wistar Institute
 | Scripps Research
