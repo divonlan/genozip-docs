@@ -26,6 +26,7 @@ Details                          Type             Size      .gz Size  .genozip  
 :ref:`details<benchmark-VCF1>`   VCF              175.3 GB  27 GB     7.8 GB    22.4X        3.3X         3202 human samples                `1000 Genomes Project <ftp://ftp=trace.ncbi.nih.gov/1000genomes/ftp/release/20110521/20201028_CCDG_14151_B01_GRM_WGS_2020=08=05_chr22.recalibrated_variants.vcf.gz>`_
 :ref:`details<benchmark-VCF2>`   VCF              1.2 TB    132.4 GB  31.6 GB   37.9X        4.2X         1135 plant samples                `1001 Genomes - Arabidopsis Thaliana <https://1001genomes.org/data/GMI-MPI/releases/v3.1/1001genomes_snp-short-indel_with_tair10_only_ACGTN.vcf.gz>`_
 :ref:`details<benchmark-VCF3>`   VCF              26 GB     1.9 GB    315.5 MB  84.3X        6.2X         Rice                              `3K Rice Genome <https://3kricegenome.s3.amazonaws.com/9311/IRIS_313-10000.snp.vcf.gz>`_
+:ref:`details<benchmark-VCF4>`   VCF              165.4 GB  12.6 GB   1.1 GB    150.6X       11.5X        GVCF (single sample, human)       Unpublished
 :ref:`details<benchmark-FASTA1>` FASTA            1.2 GB    254.9 MB  1.5 MB    838.4X       170X         Covid-19 multi-FASTA :sup:`2`     `coronavirus.innar.com <https://coronavirus.innar.com/coronavirus.unwrapped.fasta.zip>`_
 :ref:`details<benchmark-GFF1>`   GFF3             3.7 GB    91.8 MB   32.3 MB   117.9X       2.8X         Gene annotation                   `Telomere-to-telomere consortium <https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/chm13.draft_v1.0.gene_annotation.v4.gff3.gz>`_
 :ref:`details<benchmark-ME1>`    23andMe          23.6 MB             4.2 MB    5.7X                      Consumer DNA test "raw data"      Unpublished
@@ -35,7 +36,7 @@ Details                          Type             Size      .gz Size  .genozip  
 
 Notes:
 
-    - The tests were conducted with the ``--best`` option. For BAM, CRAM, Illumina FASTQ files, the ``--reference`` option was used to specify the appropriate reference file. For Illumina FASTQ, the ``--pair`` option was used.
+    - The tests were conducted with the ``--best`` option. For BAM, CRAM, Illumina FASTQ, GVCF files, the ``--reference`` option was used to specify the appropriate reference file. For Illumina FASTQ, the ``--pair`` option was used.
     
     - :sup:`1` the data was converted to fastq with ``fastq-dump`` and compressed to .gz with ``bgzip``. genozip was used with the ``--multiseq`` option.
   
@@ -528,6 +529,63 @@ Notes:
     ID                        42 B   0.0%  781.3 MB   2.9% 19505078.0X
     GENOZIP vs BGZF       315.5 MB 100.0%    1.9 GB 100.0%    6.2X
     GENOZIP vs TXT        315.5 MB 100.0%   26.0 GB 100.0%   84.3X
+
+
+.. _benchmark-VCF4:
+
+**VCF - GVCF, single sample, human**
+
+::
+
+    VCF file: <redacted>.vcf.gz
+    Reference: GRCh38_full_analysis_set_plus_decoy_hla.ref.genozip MD5=64b32de264b32de2c16e83a2bc072064 genozip_version=8
+    Samples: 1   Variants: 3,217,346,917   Dictionaries: 225   Vblocks: 331 x 512 MB  Sections: 23477
+    Genozip version: 13.0.18 conda
+    Date compressed: 2022-06-04 00:22:27 ACDT
+    Command line: genozip -ftw --best -e GRCh38_full_analysis_set_plus_decoy_hla.ref.genozip FD09254746.vcf.gz
+
+    Sections (sorted by % of genozip file):
+    NAME                   GENOZIP      %       TXT      %   RATIO
+    FORMAT/RGQ            414.1 MB  36.8%    5.6 GB   3.4%   13.9X
+    FORMAT/DP             291.0 MB  25.9%    5.6 GB   3.4%   19.8X
+    INFO/DP               263.7 MB  23.4%    5.3 GB   3.2%   20.6X
+    QUAL                   17.4 MB   1.5%    6.0 GB   3.6%  353.5X
+    INFO                   17.3 MB   1.5%   22.5 GB  13.6% 1332.6X
+    REF+ALT                15.2 MB   1.3%   12.0 GB   7.2%  808.8X
+    FORMAT/GT              14.1 MB   1.3%    9.0 GB   5.4%  652.1X
+    FORMAT/PL              12.1 MB   1.1%   42.9 MB   0.0%    3.5X
+    Other                  11.8 MB   1.0%    9.0 GB   5.4%  784.2X
+    FORMAT                 11.7 MB   1.0%   30.0 GB  18.1% 2621.7X
+    FORMAT/AD               7.6 MB   0.7%   28.7 MB   0.0%    3.8X
+    INFO/QD                 7.0 MB   0.6%   23.0 MB   0.0%    3.3X
+    INFO/SOR                5.6 MB   0.5%   23.4 MB   0.0%    4.2X
+    INFO/MQRankSum          5.5 MB   0.5%   27.4 MB   0.0%    5.0X
+    INFO/BaseQRankSum       5.4 MB   0.5%   26.4 MB   0.0%    4.9X
+    INFO/ClippingRankSum    5.3 MB   0.5%   26.6 MB   0.0%    5.0X
+    INFO/ReadPosRankSum     5.3 MB   0.5%   24.9 MB   0.0%    4.7X
+    INFO/FS                 3.3 MB   0.3%   23.6 MB   0.0%    7.0X
+    INFO/MQ                 2.6 MB   0.2%   29.7 MB   0.0%   11.6X
+    CHROM                   2.6 MB   0.2%   18.0 GB  10.9% 7204.4X
+    FORMAT/GQ               1.8 MB   0.2%    9.3 MB   0.0%    5.3X
+    FORMAT/AB               1.6 MB   0.1%   10.4 MB   0.0%    6.5X
+    INFO/AF                 1.0 MB   0.1%   26.8 MB   0.0%   26.1X
+    INFO/ExcessHet        547.1 KB   0.0%   33.1 MB   0.0%   62.0X
+    INFO/MLEAF            444.5 KB   0.0%   21.5 MB   0.0%   49.6X
+    INFO/MLEAC            444.5 KB   0.0%    4.8 MB   0.0%   11.0X
+    FORMAT/PID            213.3 KB   0.0%   29.7 MB   0.0%  142.8X
+    FORMAT/PGT            193.0 KB   0.0%    5.2 MB   0.0%   27.3X
+    INFO/AC               139.9 KB   0.0%    6.1 MB   0.0%   44.9X
+    POS                   104.5 KB   0.0%   27.4 GB  16.5% 274590.0X
+    TXT_HEADER             13.4 KB   0.0%  178.8 KB   0.0%   13.3X
+    Reference                548 B   0.0%         -   0.0%    0.0X
+    COORDS                   546 B   0.0%         -   0.0%    0.0X
+    FORMAT/PS                132 B   0.0%         -   0.0%    0.0X
+    INFO/AN                   83 B   0.0%    2.7 GB   1.6% 34403056.0X
+    ID                        42 B   0.0%    6.0 GB   3.6% 153206992.0X
+    FILTER                    42 B   0.0%    6.0 GB   3.6% 153206992.0X
+    INFO/MQ0                  42 B   0.0%    5.9 MB   0.0% 148305.9X
+    GENOZIP vs BGZF         1.1 GB 100.0%   12.6 GB 100.0%   11.5X
+    GENOZIP vs TXT          1.1 GB 100.0%  165.4 GB 100.0%  150.6X
 
 
 .. _benchmark-FASTA1:
