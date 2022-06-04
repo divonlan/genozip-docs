@@ -542,7 +542,7 @@ Notes:
     Samples: 1   Variants: 3,217,346,917   Dictionaries: 225   Vblocks: 331 x 512 MB  Sections: 23477
     Genozip version: 13.0.18 conda
     Date compressed: 2022-06-04 00:22:27 ACDT
-    Command line: genozip -ftw --best -e GRCh38_full_analysis_set_plus_decoy_hla.ref.genozip FD09254746.vcf.gz
+    Command line: genozip -ftw --best -e GRCh38_full_analysis_set_plus_decoy_hla.ref.genozip <redacted>.vcf.gz
 
     Sections (sorted by % of genozip file):
     NAME                   GENOZIP      %       TXT      %   RATIO
