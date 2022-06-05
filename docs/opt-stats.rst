@@ -5,7 +5,7 @@
 
                      |
                      
-.. option:: -W, --SHOW-STATS   Show more detailed statistics.
+.. option:: -W, --STATS   Show more detailed statistics.
 
                      |
 
