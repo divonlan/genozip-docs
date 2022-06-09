@@ -170,7 +170,7 @@ The list below of institutions in which Genozip is used was compiled in June 202
 | Delft University of Technology
 | University Goettingen
 |
-| **New Zeland**
+| **New Zealand**
 | Univerity of Waikato
 | 
 | **Norway**
