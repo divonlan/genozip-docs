@@ -12,25 +12,25 @@ The :ref:`Genozip License <license>` defines the exact cases for which use of Ge
 
 *Examples of applications for which use of Genozip is FREE:*
 
-- Academic: You are conducing a study, with the primary objective being publishing the results in a scientific journal.
+- **Academic**: You are conducing a study, with the primary objective being publishing the results in a scientific journal (excluding the case of "Clinical + Research" below).
   
-- Training: You are teaching a course in bioinformatics, using Genozip to teach data compression.
+- **Training**: You are teaching a course in bioinformatics, using Genozip to teach data compression.
 
-- Evaluation: You may use Genozip for 30 days to see whether Genozip fits your needs, ahead of a decision of whether to purchase a license.
+- **Evaluation**: You may use Genozip for 30 days to see whether Genozip fits your needs, ahead of a decision of whether to purchase a license.
 
-- Decompression: decompressing files previously compressed with Genozip is free.
+- **Decompression**: decompressing files previously compressed with Genozip is free.
 
-- Distribution: Distributing the Genozip software to others, for example, as a module on an HPC, is free. Each user will need to register individually.
+- **Distribution**: Distributing the Genozip software to others, for example, as a module on an HPC, is free. Each user will need to register individually.
 
 *Examples of applications that require paying a licensing fee:*
 
-- Clinical: The genomic data is used to directly benefit the individuals who provided the samples, for example via better diagnosis or treatment.
+- **Clinical**: The genomic data is used to directly benefit the individuals who provided the samples, for example via better diagnosis or treatment.
 
-- Clinical + Research: The genomic data is used to directly benefit the individuals who provided the samples, for example via better diagnosis or treatment, and you are also using the data to conduct scientific research.
+- **Clinical + Research**: The genomic data is used to directly benefit the individuals who provided the samples, for example via better diagnosis or treatment, and you are also using the data to conduct scientific research.
 
-- Product: You are developing a product, such as a pharmaceutical or food product. 
+- **Product**: You are developing a product, such as a pharmaceutical or food product. 
 
-- Service: You are providing a service to your customers, such as DNA sequencing, DNA analysis, bioinformatics, SaaS or cloud.
+- **Service**: You are providing a service to your customers, such as DNA sequencing, DNA analysis, bioinformatics, SaaS or cloud.
 
 If you are unsure which category covers your use case, please ask us at `sales@genozip.com <mailto:sales@genozip.com>`_.
 
