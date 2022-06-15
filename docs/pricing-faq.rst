@@ -46,7 +46,7 @@ Here is a template spreadsheet: `Genozip Return on Investment <https://docs.goog
 
 **You made your source code public, can't anyone just compile it and use it, without paying?**
 
-We decided to make our code publicly available so that users can inspect it and gain confidence in the product, as well as to ensure that files compressed with Genozip are still decompressible decades ahead. However, using the code is still subject to the specified license, that requires paying a licensing fee in some cases.
+We decided to make our code publicly available so that users can inspect it and gain confidence in the product, as well as to ensure that files compressed with Genozip are still decompressible decades ahead. However, using the code is still subject to the specified license, that requires paying a licensing fee (unless exempt).
 
 We know that by "leaving our shop open and unattended" we will inevitabley encounter dishonest shoplifters. Nevertheless, we are encouraged to see that the vast majority of our users use our product honestly according to our license.
 
