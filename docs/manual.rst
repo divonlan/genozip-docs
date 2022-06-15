@@ -7,8 +7,13 @@ Manual
 .. toctree::
    :maxdepth: 1
 
-    genozip <genozip>
-    genounzip <genounzip>
-    genocat <genocat>
-    genols <genols>
-    Advanced options <advanced>
+   Installing <installing> 
+   File Types <data-types>
+   genozip <genozip>
+   genounzip <genounzip>
+   genocat <genocat>
+   genols <genols>
+   Advanced options <advanced>
+   Algorithms <algorithms>
+   Source code <source>
+   Release Notes <release-notes>
