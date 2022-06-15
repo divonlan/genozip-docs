@@ -4,7 +4,7 @@
 Institutions in which Genozip is used
 =====================================
 
-The list below of institutions in which Genozip is used was compiled in June 2022, based on the user registration form which is presented to users when they use Genozip for the first time, and filtered for public institutions only - omitting companies and private clinics.
+The list below of institutions in which Genozip is used was compiled in June 2022, based on the user registration form which is presented to users when they use Genozip for the first time, and filtered for public institutions only - omitting private labs, clinics and companies.
 
 | **Argentina**
 | Universidad Nacional de Entre Ríos
