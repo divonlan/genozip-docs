@@ -83,6 +83,8 @@ Compressing against a reference file improves compression, often considerably, a
     
 Note: the reference file is also needed for uncompressing. Alternatively, use ``--REFERENCE`` (uppercase) which copies the relevant parts of the reference file to myfile.bam, obliviating the need for a reference file for uncompressing. Compression with a reference file works regardless of whether the SAM/BAM file is aligned.
 
+Note: It is *not* a requirement that this reference file be the same file as the one used to align the BAM file. It is ok if it contains a different set of contigs. However, contigs that are present in both the reference FASTA used for alignment and the reference file provided to Genozip, must of the same length.
+
 **Compressing CRAM files**
 
 Genozip does not support CRAM natively - it uses `samtools <https://en.wikipedia.org/wiki/SAMtools>`_ to convert CRAM files to the BAM format, and as such it requires samtools to be installed for CRAM compression to work.

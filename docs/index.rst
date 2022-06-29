@@ -49,6 +49,7 @@ Genozip is a paid professional product (:ref:`Pricing<commercial>`), provided un
    Installing <installing> 
    Benchmarks <benchmarks> 
    Pricing <commercial>
+   Make money referring <referral>
    Publications & Citing <publications>
    Capabilities <capabilities>
    User manual <manual>

@@ -7,8 +7,9 @@
                      
 .. option:: -W, --STATS   Show more detailed statistics.
 
-                     |
-
+   | Note: specifying -W or -w twice, results in the header line of the statistics printed to stderr, thereby surviving piping stdout to grep
+   |
+                     
 .. option:: --show-filename   Show the file name for each file.
 
                      |
