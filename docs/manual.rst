@@ -13,6 +13,7 @@ Manual
    genounzip <genounzip>
    genocat <genocat>
    genols <genols>
+   Using in DICOM <https://github.com/dcm4che/dcm4chee-arc-light/wiki/Tests-with-Genozip-files>
    Advanced options <advanced>
    Algorithms <algorithms>
    Source code <source>
