@@ -230,7 +230,7 @@ The list below of institutions in which Genozip is used was compiled in July 202
 | National Taiwan University
 | Biodiversity Research Center, Academia Sinica
 | 
-| **Turkey**
+| **Türkiye**
 | Middle East Technical University
 | Hacettepe University
 | 
