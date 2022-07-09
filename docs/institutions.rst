@@ -4,7 +4,7 @@
 Institutions in which Genozip is used
 =====================================
 
-The list below of institutions in which Genozip is used was compiled in June 2022, based on the user registration form which is presented to users when they use Genozip for the first time, and filtered for public institutions only - omitting private labs, clinics and companies.
+The list below of institutions in which Genozip is used was compiled in July 2022, based on the user registration form which is presented to users when they use Genozip for the first time, and filtered for public institutions only - omitting private labs, clinics and companies.
 
 | **Argentina**
 | Universidad Nacional de Entre Ríos
@@ -33,9 +33,12 @@ The list below of institutions in which Genozip is used was compiled in June 202
 | 
 | **Brazil**
 | Brazilian Agricultural Research Corporation (Embrapa Informatica Agropecuaria)
+| Universidade Federal do Paraná
 |
 | **Canada**
 | McGill University
+| Global Institute for Food Security
+| Genome Sciences Centre
 | Langara College
 | 
 | **Chile**
@@ -43,29 +46,33 @@ The list below of institutions in which Genozip is used was compiled in June 202
 | 
 | **China**
 | Shanghai Cancer Institute
+| Shanghai Center for Plant Stress Biology
+| Shanghai Jiao Tong University
+| Shanghai Normal University
 | Institute of Hematology & Blood Diseases Hospital
 | Oil Crops Research Institute
 | Yangzhou University
-| Nanjing University of Posts and Telecommunications
 | South China Agricultural University
 | Northwest A&F University
 | Hunan University
-| Shanghai Center for Plant Stress Biology
 | Chongqing Medical University
+| Nanjing University of Posts and Telecommunications
 | Nanjing Medical University
 | Institute of Hematology & Blood Diseases Hospital, Chinese Academy of Med
 | Shenzhen University
 | Tsinghua University
 | South China Normal University
 | Huazhong Agricultural University
+| Huazhong University of Science and Technology
 | Capital Normal University
 | Sichuan University
 | Sichuan Agricultural University
-| Shanghai Jiao Tong University
 | City University of Hong Kong
 | Shandong University
 | Zhejiang Academy of Agricultural Sciences
-| 
+| Zhejiang University
+| Nankai University
+|
 | **Czechia**
 | Czech Technical University in Prague
 | Anne's University Hospital in Brno
@@ -109,6 +116,7 @@ The list below of institutions in which Genozip is used was compiled in June 202
 | National Institute of Biomedical Genomics
 | Regional Centre for Biotechnology
 | Jawaharlal Nehru University
+| Amity University
 | Central University of Kerala
 | Institute of Life Science
 | Yenepoya University
@@ -148,6 +156,8 @@ The list below of institutions in which Genozip is used was compiled in June 202
 | Ewha Womans University
 | Sungkyunkwan University
 | Inha University
+| Hanyang University
+| Pohang University of Science and Technology (POSTECH)
 |
 | **Lithuania**
 | Vilnius University
@@ -169,6 +179,7 @@ The list below of institutions in which Genozip is used was compiled in June 202
 | University Medical Center Utrecht
 | Delft University of Technology
 | University Goettingen
+| Maastricht University
 |
 | **New Zealand**
 | Univerity of Waikato
@@ -217,6 +228,7 @@ The list below of institutions in which Genozip is used was compiled in June 202
 | 
 | **Taiwan**
 | National Taiwan University
+| Biodiversity Research Center, Academia Sinica
 | 
 | **Turkey**
 | Middle East Technical University
@@ -233,12 +245,15 @@ The list below of institutions in which Genozip is used was compiled in June 202
 | National Institute of Child Health and Human Development (NICHD)
 | Harvard University 
 | Columbia University
-| Stanford University
 | Cornell University
+| Yale University
+| Stanford University
 | University of California San Diego
 | University of California San Francisco
 | University of California Santa Barbara
 | University of California Santa Cruz
+| California State Polytechnic University Pomona
+| Children's Hospital Los Angeles
 | Brown University
 | Duke University
 | University of Michigan
@@ -258,6 +273,7 @@ The list below of institutions in which Genozip is used was compiled in June 202
 | Indiana University
 | Emory University
 | Wistar Institute
-| Children's Hospital Los Angeles
 | Guilford Community Technical College
 | Scripps Research
+| Fox Chase Cancer Center
+| Translational Genomics Research Institute (TGen)
