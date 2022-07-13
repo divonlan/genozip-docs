@@ -22,7 +22,7 @@ copyright = '2019-2022, Genozip Limited'
 author = 'Divon Lan'
 
 # The full version, including alpha/beta/rc tags
-release = '13.0.19'
+release = '13.0.20'
 
 
 # -- General configuration ---------------------------------------------------
