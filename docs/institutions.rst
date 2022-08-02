@@ -4,7 +4,7 @@
 Institutions in which Genozip is used
 =====================================
 
-The list below of institutions in which Genozip is used was compiled in July 2022, based on the user registration form which is presented to users when they use Genozip for the first time, and filtered for public institutions only - omitting private labs, clinics and companies.
+The list below of institutions in which Genozip is used was compiled in August 2022, based on the user registration form which is presented to users when they use Genozip for the first time, and filtered for public institutions only - omitting private labs, clinics and companies.
 
 | **Argentina**
 | Universidad Nacional de Entre Ríos
@@ -34,6 +34,7 @@ The list below of institutions in which Genozip is used was compiled in July 202
 | **Brazil**
 | Brazilian Agricultural Research Corporation (Embrapa Informatica Agropecuaria)
 | Universidade Federal do Paraná
+| Universidade de São Paulo
 |
 | **Canada**
 | McGill University
@@ -82,10 +83,12 @@ The list below of institutions in which Genozip is used was compiled in July 202
 | 
 | **Estonia**
 | University of Tartu
+| Magnus Ducatus Lituaniae Project (MDLP)
 | 
 | **France**
 | National Research Institute for Agriculture, Food and Environment (INRAE)
-| Centre national de la recherche scientifique (CNRS)
+| Centre National de la Recherche Scientifique (CNRS)
+| Paris-Saclay University
 | University of Lille
 | Inserm
 | GenHotel
@@ -105,6 +108,7 @@ The list below of institutions in which Genozip is used was compiled in July 202
 | 
 | **Greece**
 | Institute of Molecular Biology and Biotechnology-FORTH
+| Aristotle University of Thessaloniki
 | 
 | **Hungary**
 | ELKH Centre for Agricultural Research
@@ -121,13 +125,15 @@ The list below of institutions in which Genozip is used was compiled in July 202
 | Institute of Life Science
 | Yenepoya University
 | Govind Ballabh Pant University of Agriculture and Technology
-| 
+| Centre For Cellular And Molecular Biology (CCMB)
+|
 | **Israel**
 | Tel Aviv University
 | 
 | **Italy**
 | University of Naples
 | Università degli Studi di Milano
+| Sapienza University of Rome
 |
 | **Japan**
 | National Institute of Genetics
@@ -277,3 +283,6 @@ The list below of institutions in which Genozip is used was compiled in July 202
 | Scripps Research
 | Fox Chase Cancer Center
 | Translational Genomics Research Institute (TGen)
+|
+| **Uruguay**
+| Universidad de la República
